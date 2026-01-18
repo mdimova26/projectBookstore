@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6da4d1;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+     text-align: left;
+}
+
+p {
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(191, 204, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background: #8090eb;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price {
+    color: rgb(190, 7, 7);
+    font-weight: bold;
+    font-size: larger;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.decor-image{
+    width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.review {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid black;
+}
+
+form button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
