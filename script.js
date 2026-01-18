@@ -1,4 +1,3 @@
-// === ФОРМА ЗА ПОРЪЧКА ===
 document.addEventListener("DOMContentLoaded", function ()
 {
     const orderForm = document.getElementById("orderForm");
@@ -18,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function ()
             orderForm.reset();
         });
     }
-
-    // === ФОРМА ЗА РЕВЮ ===
+    
     if (reviewForm)
     {
         reviewForm.addEventListener("submit", function (e)
@@ -44,3 +42,4 @@ document.addEventListener("DOMContentLoaded", function ()
         });
     }
 });
+
